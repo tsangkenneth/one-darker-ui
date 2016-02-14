@@ -1,0 +1,22 @@
+{
+  "name": "one-darker-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "Atom One darker UI theme",
+  "keywords": [
+    "light",
+    "dark",
+    "darker",
+    "adaptive",
+    "ui"
+  ],
+  "repository": "https://github.com/tsangkenneth/one-darker-ui.git",
+  "license": "MIT",
+  "main": "lib/main",
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  }
+}
