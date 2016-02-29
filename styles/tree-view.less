@@ -20,6 +20,16 @@
   .selected:before {
     background: @background-color-highlight;
   }
+
+  li:not(.list-nested-item),
+  li.list-nested-item > .list-item {
+    .text(normal-darker);
+  }
+
+  li:not(.list-nested-item).selected,
+  li.list-nested-item.selected > .list-item {
+    .text(selected-darker);
+  }
 }
 
 .tree-view-scroller,
